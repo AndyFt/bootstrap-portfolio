@@ -5,6 +5,7 @@
 :root {
   --default-font: Poppins;
   --default-color: rgb(199, 199, 199);
+  --font-color: white;
   --line-color: rgb(107, 22, 22);
 }
 
@@ -29,14 +30,38 @@ a {
   color: black;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.5s;
+  transition: transform 0.5s ease; /*not working*/
 }
 
 a:hover, a:active {
-  font-size: 150%;
+  font-size: 120%;
   font-weight: 600;
-  color: var(--line-color);
 }
+
+/* Navigation Bar */
+.customNav {
+  position: relative;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.customNav a, .customNav p {
+  color: var(--font-color) !important;
+}
+
+
 
 header {
   display: flex;
@@ -45,20 +70,6 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-}
-
-#name {
-  display: flex;
-  font-size: 25px;
-  width: 50%;
-  font-weight: 350px;
-}
-
-#navbar {
-  display: flex;
-  width: 35%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .hero {
