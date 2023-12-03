@@ -60,17 +60,40 @@ a:hover, a:active {
 .customNav a, .customNav p {
   color: var(--font-color) !important;
 }
+/* end Navigation Bar */
+
+/* hero banner */
+
+.jumboCopy {
+  text-align: right;
+  margin-right: 0;
+  align-items: flex-end;
+}
 
 
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 29vh;
+  display: flex;
+  align-items: flex-end;
+  color: var(--font-color) !important;
+}
 
-header {
+.hero-banner h2 {
+  font-size: 28px;
+}
+/* end hero banner */
+
+/* header {
   display: flex;
   flex-direction: row;
   margin: 0px 5%;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-}
+} */
 
 .hero {
   display: flex;
