@@ -137,23 +137,52 @@ a:hover, a:active {
   display: flex;
 }
 
+@media screen and (min-width:568px) {
+  .work-cards {
+    display: flex;
+  }
+
+  .card-photo {
+    height: 30vw;
+  }
+
+  .card-photo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
+}
+
 .card {
   margin: 10px;
   width: calc(100%/2);
 }
 
-.card-photo {
-  height: 35vw;
+
+
+@media screen and (max-width:567px) {
+  .card:not(:first-child) {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-photo {
+    height: 50vw;
+  }
+  .card-photo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
 }
 
-.card-photo img {
-  max-width: 100%;
-  max-height: 100%;
-}
 
-.carousel .carousel-item {
-  /* height: 500px; */
-}
+
 
 #content {
   margin: 0px 5%;
