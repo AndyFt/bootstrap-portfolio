@@ -28,6 +28,8 @@ Portfolio webpage to learn about my work. It contains a small description of mys
 - W3Schools for grid and flexbox.</br>
 - Thanks to colleagues for their valuable contributions.
 - Carousel codes from Coding Yaar YouTube channel video Bootstrap 5 Card Carousel | Multiple items carousel - https://www.youtube.com/watch?v=kHPm_AlxP7U.
+- Icons from Icons8 - https://icons8.com.
+- Get in Touch form by Bootdey - https://www.bootdey.com/snippets/view/Get-in-Touch-form.
 
 ## License
 

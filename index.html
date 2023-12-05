@@ -27,6 +27,10 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
     <div class="container-fluid">
       <h1 class="navbar-brand">Andrea Fontana</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -55,7 +59,7 @@
   </div>
 
   <!-- <main id="content"> -->
-  <div class="container-fluid content">
+  <main class="container-fluid content">
 
     <!-- About me -->
     <div class="row about-me">
@@ -100,9 +104,7 @@
             <!-- cards 1 and 2 -->
             <div class="work-cards">
               <div class="card">
-                <div class="card-photo">
-                  <img src="./images/image-1.jpg" class="card-img-top" alt="Horiseon">
-                </div>
+                <img src="./images/image-1.jpg" class="card-img-top card-photo" alt="Horiseon">
                 <div class="card-body">
                   <h5 class="card-title">Horiseon</h5>
                   <p class="card-text">Code refactor project for the homepage from the maketing company Horiseon.</p>
@@ -112,9 +114,7 @@
               </div>
 
               <div class="card">
-                <div class="card-photo">
-                  <img src="./images/image-3.jpg" class="card-img-top" alt="My first portfolio">
-                </div>
+                <img src="./images/image-3.jpg" class="card-img-top card-photo" alt="My first portfolio">
                 <div class="card-body">
                   <h5 class="card-title">My first portfolio</h5>
                   <p class="card-text">My first portfolio created from scratch using CSS and HTML.</p>
@@ -130,9 +130,8 @@
             <div class="work-cards">
 
               <div class="card">
-                <div class="card-photo">
-                  <img src="./images/image-2.png" class="card-img-top" alt="Furniture Homepage">
-                </div>
+                <img src="./images/image-2.png" class="card-img-top card-photo" alt="Furniture Homepage">
+
                 <div class="card-body">
                   <h5 class="card-title">Furniture Store Homepage</h5>
                   <p class="card-text">CSS and HTML codes created for a furniture shop homepage.</p>
@@ -141,9 +140,7 @@
               </div>
 
               <div class="card">
-                <div class="card-photo">
-                  <img src="./images/image-4.jpg" class="card-img-top" alt="Coming soon">
-                </div>
+                <img src="./images/image-4.jpg" class="card-img-top card-photo" alt="Coming soon">
                 <div class="card-body">
                   <h5 class="card-title">Coming soon</h5>
                   <p class="card-text">You'll see many more projects in this section, wait and see!</p>
@@ -182,9 +179,8 @@
           <!-- card 1 -->
           <div class="carousel-item active">
             <div class="card">
-              <div class="card-photo">
-                <img src="./images/image-1.jpg" class="card-img-top" alt="Horiseon">
-              </div>
+              <img src="./images/image-1.jpg" class="card-img-top card-photo" alt="Horiseon">
+
               <div class="card-body">
                 <h5 class="card-title">Horiseon</h5>
                 <p class="card-text">Code refactor project for the homepage from the maketing company Horiseon.</p>
@@ -196,9 +192,7 @@
           <!-- card 2 -->
           <div class="carousel-item">
             <div class="card">
-              <div class="card-photo">
-                <img src="./images/image-3.jpg" class="card-img-top" alt="My first portfolio">
-              </div>
+              <img src="./images/image-3.jpg" class="card-img-top card-photo" alt="My first portfolio">
               <div class="card-body">
                 <h5 class="card-title">My first portfolio</h5>
                 <p class="card-text">My first portfolio created from scratch using CSS and HTML.</p>
@@ -209,9 +203,7 @@
           <!-- card 3 -->
           <div class="carousel-item">
             <div class="card">
-              <div class="card-photo">
-                <img src="./images/image-2.png" class="card-img-top" alt="Furniture Homepage">
-              </div>
+              <img src="./images/image-2.png" class="card-img-top card-photo" alt="Furniture Homepage">
               <div class="card-body">
                 <h5 class="card-title">Furniture Store Homepage</h5>
                 <p class="card-text">CSS and HTML codes created for a furniture shop homepage.</p>
@@ -222,9 +214,7 @@
           <!-- card 4 -->
           <div class="carousel-item">
             <div class="card">
-              <div class="card-photo">
-                <img src="./images/image-4.jpg" class="card-img-top" alt="Coming soon">
-              </div>
+              <img src="./images/image-4.jpg" class="card-img-top card-photo" alt="Coming soon">
               <div class="card-body">
                 <h5 class="card-title">Coming soon</h5>
                 <p class="card-text">You'll see many more projects in this section, wait and see!</p>
@@ -248,29 +238,99 @@
     </div>
     <!-- End of work section -->
 
-   
+    <!-- Skills section -->
+    <h3 class="content-title col-12">Skills</h3>
+    <div class="skills-area">
+        <div class="card card-skills col-md-2 col-sm-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Terminal</li>
+            <li class="list-group-item">Git</li>
+            <li class="list-group-item">GitHub</li>
+            <li class="list-group-item">CSS3</li>
+            <li class="list-group-item">Flexbox</li>
+            <li class="list-group-item">Grid</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">jQuery</li>
+            <li class="list-group-item">APIs</li>
+          </ul>
+        </div>
+        <div class="card card-skills col-md-2 col-sm-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Node.js</li>
+            <li class="list-group-item">NPM</li>
+            <li class="list-group-item">JSON</li>
+            <li class="list-group-item">ECMAScript6</li>
+            <li class="list-group-item">Object-Oriented Programing</li>
+            <li class="list-group-item">Test-Driven Development</li>
+            <li class="list-group-item">React.js</li>
+            <li class="list-group-item">React Hooks</li>
+            <li class="list-group-item">JSX</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
 
-  <!-- contact -->
-  <h3 class="content-title" id="contact-title">Contact Me</h3>
-  <div class="contact-details">
-    <p id="phone">0123456789</p>
+    </div>
+    <!-- Contact section -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-    <a href="mailto:email@example.com?subject=I found your website and want to say something">
-      <p id="email">andreantfontana@gmail.com</p>
-    </a>
-
-    <a href="https://github.com/AndyFt" target="_blank">
-      <p id="github">github.com/AndyFt</p>
-    </a>
-
-    <a href="https://www.x.com" target="_blank">
-      <p id="X">X.com</p>
-    </a>
-
-    <a href="https://www.spotify.com" target="_blank">
-      <p id="spotify">Spotify</p>
-    </a>
-  </div>
+    <div id="contact" class="contact-area section-padding">
+      <div class="container">
+        <div>
+          <h3 class="content-title">Get in Touch</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-sm-12 col-lg-7">
+            <div class="contact">
+              <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <textarea rows="6" name="message" class="form-control" placeholder="Your Message"
+                      required="required"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" value="Send message" name="submit" id="submitButton"
+                      class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div><!--- END COL -->
+          <div class="row justify-content-center contact-icons">
+            <div class="contact-details col-2 text-center">
+              <a href="mailto:email@example.com?subject=I found your website and want to say something">
+                <img src="./images/email.png">
+              </a>
+            </div>
+            <div class="contact-details col-2 text-center">
+              <a href="https://github.com/AndyFt" target="_blank">
+                <img src="./images/github.png">
+              </a>
+            </div>
+            <div class="contact-details col-2 text-center">
+              <a href="https://www.x.com" target="_blank">
+                <img src="./images/twitter.png">
+              </a>
+            </div>
+            <div class="contact-details col-2 text-center">
+              <a href="https://www.spotify.com" target="_blank">
+                <img src="./images/spotify.png">
+              </a>
+            </div>
+          </div>
+        </div><!--- END COL -->
+      </div><!--- END ROW -->
+    </div><!--- END CONTAINER -->
   </main>
 
   <footer>
