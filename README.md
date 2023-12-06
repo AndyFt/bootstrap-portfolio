@@ -10,7 +10,7 @@
 
 ## Description
 
-This is the second version of my portfolio with the projects I've done so far as a Front-End Developer student. It has improved a lot since the first one. I'll keep it update to date with new projects.
+This is the second version of my portfolio with the projects I've done so far as a Front-End Developer student. It has improved a lot since the first one. I'll keep it up to date with new projects.
 
 ![The webpage of my portfolio includes a navigation bar, a hero banner image, an improved work section carousel with the preview of my last projects, along with their links, my skills, and my contact information, along with a form to directly contact me.](https://github.com/AndyFt/bootstrap-portfolio/blob/main/images/andyft-github-io-bootstrap-portfolio.png)
 
